@@ -15,6 +15,9 @@
 <pre><code>> npm create-react-app react-project</code></pre>
 + 명령어 실행시 UnauthorizedAccess 오류 발생하면 윈도우 기준 PowerShell > run as Administator(관리자로 실행)에서 아래 명령어 실행
 <pre><code>> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned</code></pre>
++ 프로젝트 생성후 생성 프로젝트 폴더에 들어가서 테스트로 react 서버 실행
+<pre><code>> npm start
+http://localhost:3000 에서 확인</code></pre>
 - - -
 
 
