@@ -3,7 +3,7 @@
 + node.js
   <br/><br/>
 - - -
-# 환경구성
+# 개발 환경구성
 ### node 및 npm 설치
 + https://nodejs.org/en 링크를 통해 설치
 <pre><code>다음 명령어를 통해 nodejs 및 npm 설치 확인
