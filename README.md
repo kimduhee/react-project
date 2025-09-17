@@ -35,6 +35,15 @@ export default Header;
 <b>App.js</b>
 import Header from './Component/Header';
 
+function App() {
+  return (
+    &lt;div&gt;
+      &lt;Header /&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
 </code></pre>
 
 ### style
