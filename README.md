@@ -1,6 +1,7 @@
 
 # 개발환경
-+ node.js
++ node(22.19.0)
++ npm(10.9.3)
 <br/><br/>
 - - -
 # 개발 환경구성
@@ -22,6 +23,14 @@ http://localhost:3000 에서 확인</code></pre>
 
 # 리액트 문법
 ### 컴포넌트 사용
+<pre><code>import React from "react";
+
+function Header() {
+  return &lt;h1&gt;Heager 입니다.&lt;/h1&gt;
+}
+
+export default Header;
+</code></pre>
 
 ### style
 
