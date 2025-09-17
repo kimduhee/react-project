@@ -23,7 +23,7 @@ http://localhost:3000 에서 확인</code></pre>
 
 # 리액트 문법
 ### 컴포넌트 사용
-<pre><code>import React from "react";
+<pre><code>import React from 'react';
 
 function Header() {
   return &lt;h1&gt;Heager 입니다.&lt;/h1&gt;
@@ -33,6 +33,20 @@ export default Header;
 </code></pre>
 
 ### style
+<pre><code>Header.module.css 생성
+.header {
+  background-color:red;
+}
+  
+import React from 'react';
+import styles from "./Header.module.css";
+
+function Header() {
+  return &lt;div className={styles.header}&gt;백그라운드 RED 스타일 적용&lt;/div&gt;
+}
+
+export default Header;
+</code></pre>
 
 ### 이벤트
 
