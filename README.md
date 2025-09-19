@@ -98,7 +98,25 @@ function Header() {
 export default Header;
 </code></pre>
 
-### useState
+### state
+<pre><code>import { useState } from 'react';
+
+const Hello = () => {
+    const [count, setCount] = useState(0);
+
+    function chageCount() {
+        setCount(count + 1);
+    }
+
+    return (
+        &lt;div&gt;
+            &lt;button onClick={chageCount}>카운트 증가({count})&lt;/button&gt;
+        &lt;/div&gt;
+    );
+};
+
+export default Hello;
+</code></pre>
 
 ### useEffect
 
