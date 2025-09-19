@@ -71,11 +71,21 @@ import styles from "./Header.module.css";
 function printLog() {
   console.log("Header 입니다.");
 }
+
+function printTest() {
+  console.log("Test");
+}
   
 function Header() {
   return (
     &lt;div&gt;
       &lt;button onClick={printLog}&gt;Header Log&lt;/button&gt;
+      &lt;button 
+        onClick={() => {
+          pringTest()
+        }}
+      &gt;Header Test
+      &lt;/button&gt;
     &lt;/div&gt;
   );
 }
