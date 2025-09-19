@@ -64,6 +64,24 @@ export default Header;
 </code></pre>
 
 ### 이벤트
+<pre><code><b>Header.js</b>
+import React from 'react';
+import styles from "./Header.module.css";
+
+function printLog() {
+  console.log("Header 입니다.");
+}
+  
+function Header() {
+  return (
+    &lt;div&gt;
+      &lt;button onClick={printLog}&gt;Header Log&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Header;
+</code></pre>
 
 ### useState
 
