@@ -75,6 +75,10 @@ function printLog() {
 function printTest() {
   console.log("Test");
 }
+
+function printInput(e) {
+  console.log(e.target.value);
+}
   
 function Header() {
   return (
@@ -86,6 +90,7 @@ function Header() {
         }}
       &gt;Header Test
       &lt;/button&gt;
+      &lt;input type="text" onChange={printInput} /&gt;
     &lt;/div&gt;
   );
 }
